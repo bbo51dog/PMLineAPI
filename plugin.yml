@@ -1,0 +1,6 @@
+name: Template
+api: [3.0.0]
+main: bbo51dog\template\Main
+version: 1.0.0
+description: Description
+author: bbo51dog
