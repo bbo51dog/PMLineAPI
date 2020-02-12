@@ -1,6 +1,6 @@
-name: Template
+name: PMLineAPI
 api: [3.0.0]
-main: bbo51dog\template\Main
+main: bbo51dog\pmline\PMLineAPI
 version: 1.0.0
-description: Description
+description: Send message to LINE API
 author: bbo51dog
