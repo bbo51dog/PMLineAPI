@@ -10,10 +10,11 @@ class PMLineAPI{
     /**
      * Create Bot instance
      *
+     * @param string $token Your Channel Access Token 
      * @return Bot
      */
-    public static function createBot(): Bot{
-        return new BotImpl();
+    public static function createBot(string $token): Bot{
+        return new BotImpl($token);
     }
 
     private function __construct(){
