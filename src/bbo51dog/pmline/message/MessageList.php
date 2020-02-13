@@ -22,7 +22,11 @@ class MessageList{
         $this->messages[] = $message;
     }
     
-    public function getAll(): array{
-        return $this->messages;
+    public function getData(): string{
+        $data = []
+        foreach($this->messages as $message){
+            $data[] = $message->getData();
+        }
+        return $data;
     }
 }
