@@ -4,6 +4,6 @@ namespace bbo51dog\pmline;
 
 use pocketmine\plugin\PluginBase;
 
-class PMLineAPI extends PluginBase{
+class PMLinePlugin extends PluginBase{
     
 }
