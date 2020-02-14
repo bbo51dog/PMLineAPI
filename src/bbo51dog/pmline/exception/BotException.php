@@ -2,6 +2,6 @@
 
 namespace bbo51dog\pmline\exception;
 
-class BotException implements PMLineException{
+class BotException extends PMLineException{
 
 }

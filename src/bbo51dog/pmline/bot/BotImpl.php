@@ -54,7 +54,9 @@ class BotImpl implements Bot{
         $result = curl_exec($ch);
         curl_close($ch);
         $res = json_decode($result, true);
-        if(array_key_exists('details', $res)){
+        if(array_key_exists('message', $res)){
+            throw new BotException($res['message']);
+        }elseif(array_key_exists('details', $res)){
             throw new BotException($res['details'][0]['message']);
         }
     }
