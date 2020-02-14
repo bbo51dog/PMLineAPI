@@ -4,7 +4,6 @@ namespace sample;
 
 use bbo51dog\pmline\PMLineAPI;
 use bbo51dog\pmline\bot\Bot;
-use bbo51dog\pmline\message\MessageList;
 use bbo51dog\pmline\message\TextMessage;
 use pocketmine\plugin\PluginBase;
 
@@ -21,7 +20,7 @@ class Sample extends PluginBase{
     }
     
     public function onEnable(){
-        $list = new MessageList();
+        $list = PMLineAPI::createMessageList();
         $text = new TextMessage();
         $text->setText('Server Open');
         $list->add($text);
