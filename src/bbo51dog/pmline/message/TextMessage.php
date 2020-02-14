@@ -4,13 +4,10 @@ namespace bbo51dog\pmline\message;
 
 use bbo51dog\pmline\exception\MessageException;
 
-class TextMessage extends MessageBase{
+class TextMessage implements Message{
 
-    private $text = '';
-
-    public function __construct(){
-        $this->setType('text');
-    }
+    /** @var string */
+    private $text;
     
     public function setText(string $text): void{
         if(mb_strlen($text) > 2000){
@@ -21,7 +18,7 @@ class TextMessage extends MessageBase{
     
     public function getData(): array{
         $data = [
-            'type' => $this->type,
+            'type' => 'text',
             'text' => $this->text,
         ];
         return $data;
