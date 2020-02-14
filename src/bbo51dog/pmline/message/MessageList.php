@@ -7,7 +7,7 @@ use bbo51dog\pmline\exception\MessageException;
 class MessageList{
 
     /** @var Message[] */
-    private $messages;
+    private $messages = [];
     
     /**
      * Add Message instance
@@ -22,8 +22,8 @@ class MessageList{
         $this->messages[] = $message;
     }
     
-    public function getData(): string{
-        $data = []
+    public function getData(): array{
+        $data = [];
         foreach($this->messages as $message){
             $data[] = $message->getData();
         }

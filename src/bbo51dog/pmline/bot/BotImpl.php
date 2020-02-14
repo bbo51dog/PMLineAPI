@@ -3,6 +3,7 @@
 namespace bbo51dog\pmline\bot;
 
 use bbo51dog\pmline\exception\BotException;
+use bbo51dog\pmline\message\MessageList;
 
 class BotImpl implements Bot{
 
@@ -35,7 +36,6 @@ class BotImpl implements Bot{
     
     public function sendBroadcast(MessageList $list): void{
         $post = [
-            'to' => $to,
             'messages' => $list->getData(),
         ];
         $this->send('broadcast', $post);

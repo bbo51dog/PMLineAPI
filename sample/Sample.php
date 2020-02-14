@@ -17,7 +17,7 @@ class Sample extends PluginBase{
     private $bot;
 
     public function onLoad(){
-        $this->bot = PMLineAPI::createBot(self::ACCESS_TOKEN)
+        $this->bot = PMLineAPI::createBot(self::ACCESS_TOKEN);
     }
     
     public function onEnable(){
