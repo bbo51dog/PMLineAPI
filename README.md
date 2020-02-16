@@ -4,8 +4,7 @@
 
 ### Languages
 
-[English](#English)
-[日本語](#日本語)
+[English](#English), [日本語](#日本語)
 
 -------
 
@@ -17,8 +16,7 @@ This is an API plugin which sends messages from PocketMine-MP to LINE using Mess
 
 ### Download
 
-[MCBE Japan Forum](https://forum.mcbe.jp/resources/471/)
-[GitHub](https://github.com/bbo51dog/PMLineAPI/releases)
+[MCBE Japan Forum](https://forum.mcbe.jp/resources/471/), [GitHub](https://github.com/bbo51dog/PMLineAPI/releases)
 
 ### Example of usage
 
@@ -81,8 +79,7 @@ There are a total of four functions for sending messages, but sendPush() and sen
 
 ### Contact
 
-[Twitter](https://twitter.com/bbo51dog)
-[GitHub](https://github.com/bbo51dog)
+[Twitter](https://twitter.com/bbo51dog), [GitHub](https://github.com/bbo51dog)
 
 -------
 
@@ -94,8 +91,7 @@ There are a total of four functions for sending messages, but sendPush() and sen
 
 ### ダウンロード
 
-[MCBE Japan Forum](https://forum.mcbe.jp/resources/471/)
-[GitHub](https://github.com/bbo51dog/PMLineAPI/releases)
+[MCBE Japan Forum](https://forum.mcbe.jp/resources/471/), [GitHub](https://github.com/bbo51dog/PMLineAPI/releases)
 
 ### 使い方の例
 
@@ -157,5 +153,4 @@ $bot->sendBroadcast($list);
 
 ### 連絡先
 
-[Twitter](https://twitter.com/bbo51dog)
-[GitHub](https://github.com/bbo51dog)
+[Twitter](https://twitter.com/bbo51dog), [GitHub](https://github.com/bbo51dog)
